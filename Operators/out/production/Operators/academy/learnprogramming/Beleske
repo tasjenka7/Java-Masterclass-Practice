@@ -1,0 +1,29 @@
+ctrl + shift + F10 -> pokrecemo fajl
+sout -> System.out.println()
+tab -> dopuna
+ctrl + shift + / -> block code
+
+6.10.2021:
+    * 36. Logical AND operator
+        && u if klauzuli kada tesiramo dva uslova
+        Lakse za citanje - odvojiti u zagrade levu i desnu stranu
+    * 37. Logical OR operator
+        ||
+    * 38. Assignment Operator VS Eaquals to Operator
+        Ako za ne boolean vrednost stavimo
+            if (prom = neki_br)
+        prijavice gresku
+        Za boolean vrednost nece prijaviti gresku vec
+        tu vrednost dodeliti
+            if (isCar = true) -> procice
+
+        Pojednostavljenje ispisa za boolean:
+            if(isCar) -> da li je true
+            if(!isCar) -> da li nije
+
+    * 39. Ternary Operator
+        boolean wasCar = isCar ? true : false;
+
+    * 40. Operator Precedence and Operator Challenge
+        -> link summary of operators oracle sajt
+        -> Java operatorc precedence table -> prioritet operatora

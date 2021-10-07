@@ -1,0 +1,74 @@
+ctrl + shift + F10 -> pokrecemo fajl
+sout -> System.out.println()
+tab -> dopuna
+ctrl + shift + / -> block code
+ctrl + alt + l -> reformat code
+
+################################################################
+6.10.2021:
+    * 36. Logical AND operator
+        && u if klauzuli kada tesiramo dva uslova
+        Lakse za citanje - odvojiti u zagrade levu i desnu stranu
+    * 37. Logical OR operator
+        ||
+    * 38. Assignment Operator VS Eaquals to Operator
+        Ako za ne boolean vrednost stavimo
+            if (prom = neki_br)
+        prijavice gresku
+        Za boolean vrednost nece prijaviti gresku vec
+        tu vrednost dodeliti
+            if (isCar = true) -> procice
+
+        Pojednostavljenje ispisa za boolean:
+            if(isCar) -> da li je true
+            if(!isCar) -> da li nije
+
+    * 39. Ternary Operator
+        boolean wasCar = isCar ? true : false;
+
+    * 40. Operator Precedence and Operator Challenge
+        -> link summary of operators oracle sajt
+        -> Java operatorc precedence table -> prioritet operatora
+
+    * 41. First steps summary
+    * 42. End of remaster
+
+    // Section 4
+    * 43. Introduction
+
+    * 44. Keywords and Expressions
+        -> link list of Java keywords
+        Expressions are building blocks of all Java programms, built
+            with variables, values and operators, also with method calls
+        When we add a valid Java datatype in front of an expression we create
+        a valid Java statement (and a semicolon on the end)
+
+    * 45. Statements, whitespace and indentation
+        Statements: assignment, method calls
+                    usually ends with ;
+                    it can be in more than one line
+                    it can be more statements in one line but is not easy readable
+
+        Whitespace: space around operators, statements, etc.
+                    Java doesn't mind how many we have it deletes them internaly
+
+        Indentation: to make code readable, to show the code flow
+                    in IntelliJ: Code-> Reformat Code == Ctrl + Alt + L
+
+    * 46. Code blocks and the if then else control statements
+        if statement: when we have one line we can write without {} but it is
+        recomended to use it always so we don't forget to add it if we add more
+        to our if
+
+        code block: we can use variables created outside the block, but variables
+                    created inside it can't be used outside that block
+        inside code block = scope
+
+        Disadvantages when changing variables to count another result:
+         copying code and losing info about previous values,
+         duplicating code -> we can forget to change code in all places.
+    * 47. if then else recap
+          /
+        \/
+########################################################################
+7.10.2021.
