@@ -1,5 +1,6 @@
 ctrl + shift + F10 -> pokrecemo fajl
 sout -> System.out.println()
+psvm -> main method
 tab -> dopuna
 ctrl + shift + / -> block code
 ctrl + alt + l -> reformat code
@@ -72,3 +73,62 @@ ctrl + alt + l -> reformat code
         \/
 ########################################################################
 7.10.2021.
+
+    * 48. Methods
+        We can't put method inside another method.
+        It has to be inside class.
+
+        void - don't return anything
+        return -1 -> in programming it indicates some error,
+                     in search algorithms it's value not found
+
+    * 49. More on methods and a challenge
+        void method is usually known as a procedure
+        method which returns something is known as a function
+        think about edge cases
+
+    * 50. Method challenge - final code changes
+
+    * 51. DiffMerge Tool Introduction
+        -> program that helps you to visually compare and merge files on any OS
+        -> ex. it helps when you make a typo and get stuck
+        -> After download of his code using DiffMerge we can find where we are stuck
+        -> we can compare files and even whole folder
+
+    * 52. Install DiffMerge
+        Link: sourcegear.com/diffmerge
+
+    * 53. Using DiffMerge
+        Folder with code and second with mistake
+        Open DiffMerge
+        Choose folders or files you want to compare
+        There is option to apply changes from the left and then save them.
+
+    * 54. Coding excercises
+        SampleCodingExcercise
+            src -> desni klik -> new Java class
+        Coding excercise doesn't need main but we can use it to test
+
+    * 55. Coding Excercises Example part 1
+        new project without template -> Speed converter
+        2 classes in src -> SpeedConverter.java and Main.java
+
+        redundant - we calculated and then returned it, insetead we can only return the calculation
+
+    * 56. Coding Excercises Example part 2
+        -> another method
+        In Main psvm -> main method
+        For calling out methods class.method
+
+    * 57. Coding Excercises Example part 3
+        -> in Udemy tests the code
+
+    *  Coding Excercise 1: Speed Converter
+        -> Entered it in Udemy
+
+    *  Coding Excercise 2: MegaBytes Converter
+    *  Coding Excercise 3: Barking Dog
+    *  Coding Excercise 4: Leap Year Calculator
+    *  Coding Excercise 5: Decimal Comparator
+    *  Coding Excercise 6: Equal Sum Checker
+    *  Coding Excercise 7: Teen Number Checker
