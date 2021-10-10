@@ -132,3 +132,28 @@ ctrl + alt + l -> reformat code
     *  Coding Excercise 5: Decimal Comparator
     *  Coding Excercise 6: Equal Sum Checker
     *  Coding Excercise 7: Teen Number Checker
+
+################################################################
+10.10.2021
+    * 58. Method Overloading
+        -> use same method name but with different parameters
+        -> in case there is method with certain number of parameters and we create
+            another just like that but with different return type ERROR!!
+        -> when transforming inches to feet and inches since we need remainers
+            it can be done
+            double feet = (int) inches/12; -> then int is cast to double
+
+    * 59. Method Overloading Recap
+        In method overloading we can call the method with differenc number
+        of parameters
+        println -> example of method overloading
+        -> improves code readability and re-usability
+        -> easier to remember one method name instead of multiple names
+        -> achieves consistency in naming
+        -> give programmers flexibility to call a similar method with different
+        types of data
+
+    * 60. Seconds and Minutes Challenge
+    * 61. Bonus part for Challenge
+        constant for invalid value string => needs to be outside methods
+        We can't assign value to the final value
