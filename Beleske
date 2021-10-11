@@ -105,34 +105,34 @@ public static final String INVALID_STRING = "Invalid Value";
         Choose folders or files you want to compare
         There is option to apply changes from the left and then save them.
 
-    * 54. Coding excercises
-        SampleCodingExcercise
+    * 54. Coding exercises
+        SampleCodingexercise
             src -> desni klik -> new Java class
-        Coding excercise doesn't need main but we can use it to test
+        Coding exercise doesn't need main but we can use it to test
 
-    * 55. Coding Excercises Example part 1
+    * 55. Coding exercises Example part 1
         new project without template -> Speed converter
         2 classes in src -> SpeedConverter.java and Main.java
 
         redundant - we calculated and then returned it, insetead we can only return the calculation
 
-    * 56. Coding Excercises Example part 2
+    * 56. Coding exercises Example part 2
         -> another method
         In Main psvm -> main method
         For calling out methods class.method
 
-    * 57. Coding Excercises Example part 3
+    * 57. Coding exercises Example part 3
         -> in Udemy tests the code
 
-    *  Coding Excercise 1: Speed Converter
+    *  Coding exercise 1: Speed Converter
         -> Entered it in Udemy
 
-    *  Coding Excercise 2: MegaBytes Converter
-    *  Coding Excercise 3: Barking Dog
-    *  Coding Excercise 4: Leap Year Calculator
-    *  Coding Excercise 5: Decimal Comparator
-    *  Coding Excercise 6: Equal Sum Checker
-    *  Coding Excercise 7: Teen Number Checker
+    *  Coding exercise 2: MegaBytes Converter
+    *  Coding exercise 3: Barking Dog
+    *  Coding exercise 4: Leap Year Calculator
+    *  Coding exercise 5: Decimal Comparator
+    *  Coding exercise 6: Equal Sum Checker
+    *  Coding exercise 7: Teen Number Checker
 
 ################################################################
 10.10.2021
@@ -161,10 +161,10 @@ public static final String INVALID_STRING = "Invalid Value";
 
 #################################################################
 11.10.2021.
-    * Coding Excercise 8: Area Calculator
-    * Coding Excercise 9: Minutes to Years and Days Calculator
-    * Coding Excercise 10: Equality Printer
-    * Coding Excercise 11: Playing Cat
+    * Coding exercise 8: Area Calculator
+    * Coding exercise 9: Minutes to Years and Days Calculator
+    * Coding exercise 10: Equality Printer
+    * Coding exercise 11: Playing Cat
 
   ============================================================
   SECTION 5: Control Flow Statements
@@ -175,4 +175,11 @@ public static final String INVALID_STRING = "Invalid Value";
         From JDK 7 String can be used -> problem if we test January and someone enters
                         january. ==> solution month.toLowerCase()
     * 64. Day of the Week Challenge
-    * Coding Excercise 12: Number in Word
+    * Coding Exercise 12: Number in Word
+    * Coding Exercise 13: Number of Days in Month
+    * 65. For statement
+        Precision for double -> String.format("%.2f", number)
+    * 66. For loop recap
+    * 67. Sum 3 and 5 Challenge
+    * Coding Exercise 14: Sum Odd
+###########################################################################
