@@ -4,6 +4,7 @@ psvm -> main method
 tab -> dopuna
 ctrl + shift + / -> block code
 ctrl + alt + l -> reformat code
+public static final String INVALID_STRING = "Invalid Value";
 
 ################################################################
 6.10.2021:
@@ -157,3 +158,13 @@ ctrl + alt + l -> reformat code
     * 61. Bonus part for Challenge
         constant for invalid value string => needs to be outside methods
         We can't assign value to the final value
+
+#################################################################
+11.10.2021.
+    * Coding Excercise 8: Area Calculator
+    * Coding Excercise 9: Minutes to Years and Days Calculator
+    * Coding Excercise 10: Equality Printer
+    * Coding Excercise 11: Playing Cat
+
+  ============================================================
+  SECTION 5: Control Flow Statements
