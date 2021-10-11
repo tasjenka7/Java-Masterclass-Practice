@@ -168,3 +168,11 @@ public static final String INVALID_STRING = "Invalid Value";
 
   ============================================================
   SECTION 5: Control Flow Statements
+    * 62: Intro
+    * 63. Switch statement
+        If we forget break statement we get unpredictable result.
+        Can be used with 4 primitive types: byte, short, char or int
+        From JDK 7 String can be used -> problem if we test January and someone enters
+                        january. ==> solution month.toLowerCase()
+    * 64. Day of the Week Challenge
+    * Coding Excercise 12: Number in Word
