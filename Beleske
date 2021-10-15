@@ -200,4 +200,27 @@ public static final String INVALID_STRING = "Invalid Value";
     * Coding Exercise 21: All factors
     * Coding Exercise 22: Perfect Number
     * Coding Exercise 23: Number to words
-    
+    * 71. Parsing Values as String
+           int number = Integer.parseInt(numberAsString)
+           Integer -> class Integer
+           We can parse String as any primitive type
+
+           string += number -> ex. "123" + 1 = "1231" concatenes
+           number += numb -> ex. 123 + 1 = 124
+
+    * Coding Exercise 24: Flour Pack Problem
+    * Coding Exercise 25: Largest Prime
+    * Coding Exercise 26: Diagonal Star
+    * 72. Reading User Input
+        Scanner class -> import java.util.Scanner; !!!
+        Scanner scanner = new Scanner(System.in); -> new instance, object of Scanner
+        Always close the scanner after we use it!!
+        nextLine() reading after enter (for now handle like that)
+
+    * 73. Problems and Solutions
+        -> What if negative input or letters instead of numbers?
+            -> add condition to check
+    * 74. Reading User input challenge
+        while(true) --> or while(counter <=10) to avoid break
+        break to exit the loop
+        scanner.nextLine() -> to handle enter and avoid infinite loop
