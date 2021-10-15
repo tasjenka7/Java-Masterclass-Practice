@@ -189,3 +189,15 @@ public static final String INVALID_STRING = "Invalid Value";
         continue -> bypass the rest of the code and goes back to begining of loop
     * 69. While and Do While recap
     * 70. Digit Sum Challenge
+###########################################################################
+15.10.2021.
+    * Coding Exercise 15: Number Palindrome
+    * Coding Exercise 16: First and last digit sum
+    * Coding Exercise 17: Even digit sum
+    * Coding Exercise 18: Shared digit
+    * Coding Exercise 19: Last digit checker
+    * Coding Exercise 20: Greatest common divisor
+    * Coding Exercise 21: All factors
+    * Coding Exercise 22: Perfect Number
+    * Coding Exercise 23: Number to words
+    
