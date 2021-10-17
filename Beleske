@@ -224,3 +224,21 @@ public static final String INVALID_STRING = "Invalid Value";
         while(true) --> or while(counter <=10) to avoid break
         break to exit the loop
         scanner.nextLine() -> to handle enter and avoid infinite loop
+####################################################################
+17.10.2021.
+
+    * 75. Min and Max Challenge
+        One solution is to use flag to insure to use entered numbers
+        Second one is to set min to max val int can hold, and same for max
+        min = 2147483647
+        max = -2147483648
+            Or constant int min = Integer.MAX_VALUE;
+                        int max = Integer.MIN_VALUE;
+
+    * Coding Exercise 27: Input Calculator
+    * Coding Exercise 28: Paint Job
+
+    =====================================================
+    SECTION 6: OOP Part 1 - Classes, Constructors and Inheritance
+    * 76. Introduction
+    * 77. Classes Part 1
