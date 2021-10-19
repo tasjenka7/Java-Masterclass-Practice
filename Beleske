@@ -242,3 +242,30 @@ public static final String INVALID_STRING = "Invalid Value";
     SECTION 6: OOP Part 1 - Classes, Constructors and Inheritance
     * 76. Introduction
     * 77. Classes Part 1
+        2 major characteristics of objects -> behaviour and state
+        class -> like a template or blueprint for creating objects
+
+        On package name right click => new class => Name of class with capital letter
+
+        On the left -> Project -> find class we want and right click -> open in explorer
+                    -> we see all the classes created for that project in said package
+
+        public - unrestricted access to your class
+        private -> non other can access
+        protected - others from the same package can access
+
+        fields inside class are private (private int doors, private String model...)
+
+        after we create new object (in Main) we can access a bunch of methods that Java
+                creates when class is created ex. .equals, .notify, .wait...
+#########################################################################
+19.10.2021.
+    * 78. Classes Part 2
+        Creating Setters -> method public void setModel, to set a value
+        this.field = ...
+        Creating Getter -> it needs to return value
+            InteliJ tells us type -> f = field, p = paramater...
+            null is default before we set the values (for any field)
+
+    * Coding Exercise 29: Sum Calculator
+    * Coding Exercise 30: Person
