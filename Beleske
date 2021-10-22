@@ -269,3 +269,28 @@ public static final String INVALID_STRING = "Invalid Value";
 
     * Coding Exercise 29: Sum Calculator
     * Coding Exercise 30: Person
+#########################################################################
+22.10.2021.
+    * 79. Constructors Part1
+        Code -> Generate -> Getters and Setters
+        Constructor - creates a class. Only has access modifier
+                    - to initialize our Object
+                    - only called once
+                    - they can be overloaded - just change number of params
+                    - to set default values to fields in empty constructor call
+                    this(... here goes values... )
+                    this HAS to be the very first line executed
+                        sout in empty and sout i full version, firstly the full
+                        one will be desplayed then empty
+    * 80. Constructors Part2
+        In constructors we can use setters ('cause in setters
+        we can have some checkings of values etc.) DON'T DO THIS
+        But generally it's better to set values directly from
+        the field. In inheritance we'll see that sometimes code
+        from setters doesn't execute
+
+        Code -> Generate -> Constructors and select fields
+
+        Good way:
+            Create one major constructor and then in all other constructors
+            call that one.
