@@ -4,7 +4,10 @@ psvm -> main method
 tab -> dopuna
 ctrl + shift + / -> block code
 ctrl + alt + l -> reformat code
+alt + insert => Generate constructors, getters, setters...
+
 public static final String INVALID_STRING = "Invalid Value";
+
 
 ################################################################
 6.10.2021:
@@ -294,3 +297,59 @@ public static final String INVALID_STRING = "Invalid Value";
         Good way:
             Create one major constructor and then in all other constructors
             call that one.
+###########################################################################
+26.10.2021.
+    * CE 32: Wall Area
+    * CE 33: Point
+    * CE 34: Carpet Cost Calculator
+    * CE 35: Complex Operations
+    * 81. Inheritance Part1
+         alt + insert => Generate constructors, getters, setters...
+        Animal - base class, other types of animals are subclasses
+        subclass:
+            public class Dog extends Animal
+            constructor -> super(params...)
+            can have additional params/fields
+
+            override methods
+
+    * 82. Inheritance Part2
+        If we override method ex. move
+        and in one method we call super.move() and in other move()
+        First is called move from Dog class.
+        So move() calles overriden method which calls super, and second one only super
+
+        And if it's not overriden move calls the super one
+
+        you don't have to call the code in the super class
+
+    * 83. Reference vs Object vs Instance vs Class
+        object - blueprint, how we define object
+        instance - when we create one object of that class
+                - each time creating object of class or copying
+        Object - when created new instance
+        reference - points to an object, more references can point to same object
+
+        House blueHouse = new House(blue) - object, instance
+        House anotherBlue = blueHouse - instance, reference
+
+        anotherBlue = greenHouse --> dereferencing
+
+    * 84. this vs super
+         - CAN'T use them in static areas (static block or static method)
+                --> leads to compile-time errors
+         this - in constructors and setters, in getters it's optional
+
+         this() - to call a constructor from another overloaded constructor in the same class
+                - only in constructor, must be first statement
+                - helps reduce duplicated code, used with constructor chaining
+         super() - calls parent constructor
+                 - first statement in constructor!!
+
+         Even Abstract classes have constructors athough you can never instantiate an
+         abstract class using the new keyword
+         Abstract class is still a super class, so its constructors run when someone makes
+         an instance of concrete subclass
+
+         Constructor can have a call to super() or this() but NEVER both
+######################################################################
