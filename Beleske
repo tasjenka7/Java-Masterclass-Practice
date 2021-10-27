@@ -353,3 +353,75 @@ public static final String INVALID_STRING = "Invalid Value";
 
          Constructor can have a call to super() or this() but NEVER both
 ######################################################################
+27.10.2021.
+    * 85. Method Overloading and Overriding Recap
+        - Overloading doesn't have anything to do with polymorphism but
+        often refered ad Compile Time Polymorphism
+        - Overloading rules:
+            1. must have same mathod name
+            2. must have different parameters
+            - may or may not: have different return types, different access modifiers
+                throw different checked or unchecked exceptions
+        - Overriding - same name, same arguments as parent class, derived methods
+                     - known as Runtime Polymorphism and Dynamic Method Dispatch
+        - Overriding rules:
+            1. must have same name and same arguments
+            2. return type can be a subclass of the return type in the parent class
+            3. can't have a lower acccess modifier
+                (ex. parent - protected, child can't be private but can be public)
+        Covariant return type:
+            class Burger{...}
+            class HealthyBurger extends Burger{...}
+
+            class BurgerFactory has method public Burger createBurger(){...}
+            class HealthyBurgerFactoty extends BurgerFactory has overriden
+                method public HealthyBurger createBurger(){...}
+            overriden method has return type which is child class of original (lower class)
+
+    * 86. Static vs Instance Methods
+        in static method can't use this keyword, if method doesn't use instance variables
+        it should be static method
+
+        static methods call:
+            ClassName.methodName(); or
+            methodName(); -> only if in the same class
+
+        Instance methods belong to an instance of a class, to use it we firstly have to instantiate
+        the class using the new keyword.
+
+    * 87. Static vs Instance Variables
+        Every instance of that class shares the same static variable, if changes are made
+        to it all other instances will see the effect of the change.
+        Can be useful, ex. Scanner can be static var and all static methods can access it.
+
+       EX. of bad:
+        class with instance private static String name
+        then in main we create 2 instances .. new Dog("rex"), new Dog("fluffy")
+        because of static both will be fluffy!
+
+    * 88. Inheritance Challenge Part1 (+ Challenge Exercise)
+        java.lang.Object
+            Every class has Object as a superclass
+            All objects, including arrays, implement the methods of this class
+
+    * 89. Inheritance Challenge Part2
+    * CE35: Cylinder
+    * CE36: Pool Area
+
+    =======================================================
+    SECTION 7: OOP Part2 - Composition, Encapsulation and Polymorphism
+
+    * 90. Introduction
+    * 91. Composition
+        recap little about inheritance. 2 classes Vehicle, Car extends Vehicle
+            there is a "IS A" relationship -> Car is a Vehicle
+        Composition deals with "HAS A" relationship
+            ex. computer has a motherboard, ram etc. but those are not computers
+            - modeling parts of a whole
+        If we are not going to use instance more than once we can put creation directly:
+            Monitor monitor = new Monitor("27inch Beast", "Acer", 27, new Resolution(2540, 1440));
+        instead of making variable for resolution then calling it in monitor.
+
+        Think about what you're trying to do - to build something or to make parts.
+#########################################################################
+
