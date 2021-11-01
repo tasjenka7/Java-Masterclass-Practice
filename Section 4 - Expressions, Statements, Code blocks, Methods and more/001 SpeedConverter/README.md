@@ -43,27 +43,27 @@ The **Math.round()** is a built-in math method which returns the closest long to
 
 ### USAGE EXAMPLE:
 
-`double number = 1.5;   
-long rounded = Math.round(number);  
-System.out.println("rounded= " + rounded);  
-System.out.println("with 3.9= " + Math.round(3.9));  
-System.out.println("with 4.5= " + Math.round(4.5));  
-int sum = 45;  
-int count = 10;  
-// typecasting so result is double e.g. double / int -&gt; double  
-double average = (double) sum / count;  
-long roundedAverage = Math.round(average);  
-System.out.println("average= " + average);  
-System.out.println("roundedAverage= " + roundedAverage);`  
+`double number = 1.5;`  
+`long rounded = Math.round(number);`  
+`System.out.println("rounded= " + rounded);`  
+`System.out.println("with 3.9= " + Math.round(3.9));`  
+`System.out.println("with 4.5= " + Math.round(4.5));`  
+`int sum = 45;`  
+`int count = 10;`  
+`// typecasting so result is double e.g. double / int -&gt; double`  
+`double average = (double) sum / count;`  
+`long roundedAverage = Math.round(average);`  
+`System.out.println("average= " + average);`  
+`System.out.println("roundedAverage= " + roundedAverage);`  
 
 
 ### OUTPUT:
 
-`rounded= 2 
-with 3.9= 4 
-with 4.5= 5  
-average= 4.5  
-roundedAverage= 5`  
+`rounded= 2`  
+`with 3.9= 4`  
+`with 4.5= 5`  
+`average= 4.5`  
+`roundedAverage= 5`  
 
 
 
