@@ -5,7 +5,8 @@ tab -> dopuna
 ctrl + shift + / -> block code
 ctrl + alt + l -> reformat code
 alt + insert => Generate constructors, getters, setters...
-
+obelezim rec, desni klik refactor - renamme i onda u celoj klasi menja
+                - pita za getter da li promeniti
 public static final String INVALID_STRING = "Invalid Value";
 
 
@@ -424,4 +425,20 @@ public static final String INVALID_STRING = "Invalid Value";
 
         Think about what you're trying to do - to build something or to make parts.
 #########################################################################
-
+13.11.2021.
+   * 92. Composition II
+        General rule - look firstly composition
+   * CE37: Composition
+   * 93. Encapsulation
+        Mechanism which allows us to restrict access to certain components we are creating.
+        Problems: Player -> 1. every field public, we get to override the class, fidle with the logic
+            2. Another problem if we change field name in class and in main we use it then we have to find
+                what is it changed to and possibly make a lot of changes.
+            3. We can forget to initialize at all a field so we have a problem with all
+        EnhancedPlayer
+            Now when we have private fields, constructor, getters etc. we can rename
+            fields in class and still have our name code runing without changes..
+   * 94. Encapsulation - Excercise
+   * CE38: Encapsulation
+        -> Same as 94
+###########################################################################
