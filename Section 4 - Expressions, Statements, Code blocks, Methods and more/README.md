@@ -16,7 +16,7 @@
 
 [Coding Exercise 8: Area Calculator](008%20AreaCalculator)
 
-[Coding Exercise 9: Minutes To Years and Days Calculator](009%20MinutesToYearsAndDaysCalculator)
+[Coding Exercise 9: Minutes To Years and Days Calculator](009%20MinutesToYearsDaysCalculator)
 
 [Coding Exercise 10: Equality Printer](010%20IntEqualityPrinter)
 
