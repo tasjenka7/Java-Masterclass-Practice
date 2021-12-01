@@ -24,7 +24,7 @@ The following years **are leap years:**
 1600, 2000, 2400
 This is because they are **evenly divisible by both 100 and 400.**
 
-Examples of input/output:
+## Examples of input/output:
 
 * `isLeapYear(-1600);` → should **return false** since the parameter is **not in range (1-9999)**
 
@@ -35,4 +35,5 @@ Examples of input/output:
 * `isLeapYear(2000);`  → should **return true** because 2000 is a leap year 
 
 **NOTE:** The method **isLeapYear** needs to be defined as **public static** like we have been doing so far in the course.
+
 **NOTE:** Do not add a **main** method to solution code.
