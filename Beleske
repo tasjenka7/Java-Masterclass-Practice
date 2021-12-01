@@ -8,7 +8,8 @@ alt + insert => Generate constructors, getters, setters...
 obelezim rec, desni klik refactor - renamme i onda u celoj klasi menja
                 - pita za getter da li promeniti
 public static final String INVALID_STRING = "Invalid Value";
-
+refactor -> copy class
+right click -> refactor -> move -> make inner class of
 
 ################################################################
 6.10.2021:
@@ -442,3 +443,21 @@ public static final String INVALID_STRING = "Invalid Value";
    * CE38: Encapsulation
         -> Same as 94
 ###########################################################################
+01.12.2021
+
+    * 95. Polymorphism
+        -> mechanism which allows us to execute one action in multiple ways
+        -> it is ok to implement multiple classes in one file if they are compact and small
+        -> we have a base class and multiple classes which exteds her -> in them we override and that's polymorphism
+        -> Inline class -> after instancing a class { with the rest of the class}
+        -> Name of a class:
+            getClass().getSimpleName()
+    * 96. Polymorphism + Challenge Excercise
+    * CE 39: Polymorphism = 96
+    * 97. OOP Master Challenge Excercise
+    * 98. -||- solution
+        Better with Lists and Arrays but more on that later
+    * CE 40 = 97 & 98
+    ======================================================================
+    SECTION 8
+    =========
