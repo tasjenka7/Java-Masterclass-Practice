@@ -1,0 +1,34 @@
+07.12.2021.
+	
+	99. Arrays
+		data structure to store a sequence of elements of the same type
+		works with primitive types and also objects
+		Declaration -> after type [] --> int[] myVars = new int[10];
+		Arrays go from 0 so myVars[6] is actually 7th el.
+		
+		in for loop use .length 'cause if we change the length of our array everything
+		else in our code is up to date
+		
+		we get an error if we try to access element that does not exist
+		
+		\r to go to the next line when it waits for input
+	100. Arrays (Challenge Exercise)
+		int[] copyArr = Arrays.copyOf(array, array.length)
+
+	CE 41 = 100.
+-----------------------------------------
+-----------------------------------------
+03.01.2022.
+
+    101. Arrays Recap
+
+    102. References Types vs Value Types
+
+    103. Minimum Element Challenge
+
+    CE 42 = 103.
+
+    104. Reverse Array Challenge
+
+    CE 43 = 104.
+	
