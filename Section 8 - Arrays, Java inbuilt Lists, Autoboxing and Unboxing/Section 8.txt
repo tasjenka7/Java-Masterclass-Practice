@@ -54,12 +54,6 @@
             dereference => changing reference of an array with new array...
 
     103. Minimum Element Challenge
-
-
-
+        REMEMBER: scanner.nextLine() for any junk we don't expect
     CE 42 = 103.
 
-    104. Reverse Array Challenge
-
-    CE 43 = 104.
-	
