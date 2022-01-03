@@ -29,10 +29,33 @@
         new operator for creating
         in inline initialization => {, , ,} --> anonymous array
         can't access negative location
-        
+
     102. References Types vs Value Types
+        Value types -> int, double...
+                    -> when we assign a value place for it is alocated in memory,
+                    and every variable has its place. ex. val1 = 10;
+                                                          val2 = val1;
+                                                          val2++;
+                                                          -> val1 = 10, val2 = 11
+        Reference types -> arrays, strings,
+                    everytime we see new we know a new object is created
+                    they are used by reference
+                    for array -> a reference to the array in memory
+                    so we can't access the object directly
+            int[] myIntArray = new int[5];
+            int[] anotherArray = myIntArray;
+            -> 2 references to the same array in memory, we change in one both are changed
+
+            Arrays.toString(myIntArray) -> array to string separated by comma
+
+            if we have a method, we pass a reference type to it so for an array above we now
+            have 3 references
+
+            dereference => changing reference of an array with new array...
 
     103. Minimum Element Challenge
+
+
 
     CE 42 = 103.
 
