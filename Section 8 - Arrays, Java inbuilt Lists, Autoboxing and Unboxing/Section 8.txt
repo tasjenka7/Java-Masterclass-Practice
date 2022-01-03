@@ -21,7 +21,15 @@
 03.01.2022.
 
     101. Arrays Recap
-
+        Default values of: numeric array = zero
+                           boolean array = false
+                           string or other objects = null
+        Zero indexed, 0 - (length - 1)
+        ArrayIndexOutOfBound -> if we try to access element out of range
+        new operator for creating
+        in inline initialization => {, , ,} --> anonymous array
+        can't access negative location
+        
     102. References Types vs Value Types
 
     103. Minimum Element Challenge
