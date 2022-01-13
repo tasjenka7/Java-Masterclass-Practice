@@ -96,3 +96,8 @@
 				
 				Copy elements from one to another -> newArray.addAll(groceryList.getGroceryList()) // we need a getter
 				Another way -> ArrayList<String> nextArray = new ArrayList<String>(groceryList.getGroceryList())
+				
+	108, 109, 110 ArrayLists Challenge
+			
+	111 Bug fix for challenge
+		When updating contact name and changing it to one that already exists
