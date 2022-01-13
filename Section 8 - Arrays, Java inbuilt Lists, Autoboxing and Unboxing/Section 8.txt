@@ -90,3 +90,9 @@
 					
 					REMINDER: Always think of human numbers vs computer numbers, when person enters 
 								item number 3 its computers item 2 so deduct 1!!
+	
+	107. Arrays and ArrayLists Part 3
+				refactoring class we created
+				
+				Copy elements from one to another -> newArray.addAll(groceryList.getGroceryList()) // we need a getter
+				Another way -> ArrayList<String> nextArray = new ArrayList<String>(groceryList.getGroceryList())
