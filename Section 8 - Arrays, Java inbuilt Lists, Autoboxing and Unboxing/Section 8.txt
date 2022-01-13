@@ -60,6 +60,26 @@
 ===========================================================
 13.01.2022.
 	104 Reverse Array Challenge
-		
+	
+		reminder: wher it is void method then we call it methodName(array/params)
+
 	CE 43 = 104
 	
+	105. Arrays and ArrayLists
+		
+		resizing array => save elems in another array, say that our array is new array of given number
+		and then copy elements back to it --> without array lists
+		
+		In Java List -> An ordered collection (sequence) 
+		Array Lists -> inherits from Lists, resizable-array implementation of the List interface, it handles 
+						resizing automaticly
+					-> can save object
+					-> have to tell it what kind of objects it holds
+					-> ArrayList<type of Object>
+		
+					-> it's actually a class so thats why it has () in creating a new one
+					-> adding element-> arrayListName.add(element)
+					.get(position) -> to get element
+					.size()
+					.set(position, element) -> modify
+					.remove(position) -> remove
