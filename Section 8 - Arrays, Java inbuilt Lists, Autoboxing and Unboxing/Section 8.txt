@@ -83,3 +83,10 @@
 					.size()
 					.set(position, element) -> modify
 					.remove(position) -> remove
+	106. Arrays and ArrayLists Part 2
+	
+					.contains()
+					.getIndexOf()
+					
+					REMINDER: Always think of human numbers vs computer numbers, when person enters 
+								item number 3 its computers item 2 so deduct 1!!
