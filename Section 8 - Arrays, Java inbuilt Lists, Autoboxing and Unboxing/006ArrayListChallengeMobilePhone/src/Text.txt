@@ -1,0 +1,12 @@
+Create a program that implements a simple mobile phone with the following capabilities.
+Able to store, modify, remove and query contact names.
+You will want to create a seperate class for Contacts (name and phone number).
+Create a master class (MobilePhone) that holds the ArrayList of Constacts.
+The MobilePhone class has the functionality listed above.
+Add a menu of options that are available.
+Options: Quit, print list of contacts, add new constact, update existing contact, remove constact
+and search/find contact.
+When adding or updating be sure to chech if the contact already exists(use name) --> hint for when doing this we want to say if it exists or not
+Be sure not to expose the inner working of the ArrayList to MobilePhone
+e.g. no ints, no .get(i) etc
+MobilePhone should do everythinh with Contact objects only.
