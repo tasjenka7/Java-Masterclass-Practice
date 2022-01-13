@@ -57,3 +57,9 @@
         REMEMBER: scanner.nextLine() for any junk we don't expect
     CE 42 = 103.
 
+===========================================================
+13.01.2022.
+	104 Reverse Array Challenge
+		
+	CE 43 = 104
+	
