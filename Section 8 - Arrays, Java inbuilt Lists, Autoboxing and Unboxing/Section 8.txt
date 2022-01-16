@@ -1,3 +1,6 @@
+ctrl + element in code -> it opens docs (It works with objects)
+
+
 07.12.2021.
 	
 	99. Arrays
@@ -101,3 +104,24 @@
 			
 	111 Bug fix for challenge
 		When updating contact name and changing it to one that already exists
+=====================================
+16.01.2022.
+	112. Autoboxing and Unboxing
+	
+		We can't do: 
+		 ArrayList<int> intArrayList = new ArrayList<int>();
+		because int is a primitive type and not a class
+		
+		One option is to create our own class but that's messy.
+		
+		Java provides solution for this problem and Autoboxing is all about that
+		Integer class -> adding value of i into array list 
+								-> intArrList.add(Integer.valueOf(i))
+					  -> to get number we have to use getter and .intValue
+					  
+			Autoboxing -> turning (ex. int) value into (Integer) class value
+			Unboxing -> getting (Integer) class value and turning it into primitive type
+			
+			How Java helps us:
+				Integer myIntValue = 56; //At compile time Integer.valueOf(56)
+				int myInt = myIntValue; // myInt.intValue();
