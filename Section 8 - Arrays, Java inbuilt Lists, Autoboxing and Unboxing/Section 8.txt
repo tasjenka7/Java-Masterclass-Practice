@@ -126,6 +126,49 @@ ctrl + element in code -> it opens docs (It works with objects)
 				Integer myIntValue = 56; //At compile time Integer.valueOf(56)
 				int myInt = myIntValue; // myInt.intValue();
 
-21.01.2021.
+21.01.2022.
 	113, 114, 115 Autoboxing and unboxing challenge
+		
+-----------------------
+30.01.2022.
+	116. LinkedList
+	
+		Internaly Java allocates 4bytes of memory for each integer (so it can save even biggest value of int)
+		We have indexes, in memory it has its address (ex. 100, 104, 108...) and value
+
+		For all primitive types -> 8 bytes for double. We can calculate address for every type 
+		
+		String can have variable size so we have 
+		index, address, string address(don't have to be continuous) and then new location with address and string itself
+		
+		when we are done Java garbage collection deals with it (behind the scenes)
+		
+		In Java we don't have pointers.
+		
+		In ArrayList if we have to add or remove an item the whole list has to move down or up to fill space.
+		That takes a lot of time. (with arr.add(position, element) it add element to the position and moves all other for one space down)
+		
+		LinkedList is an alternative to an array. Each element holds a link to the item it follows it.
+		
+		null is when nothing is following
+		
+		ex. Sydney -> Melbourne -> Brisbane -> Perth -> Canberra -> Adelade -> Darwin -> null 
+		And we move that Brisbane -> Canberra then Perth is showing to Canberra but as nothing points to
+		 it in garbage collection time it will be destroyed
 		 
+		Iterator<String> i = linkedList.iterator(); -> something similar to for loop 
+		while(i.hasNext()){
+			... i.next() -> moving to the next value and returning current value
+		}
+		
+		Advantages of LinkedList:
+			we'll add cities in alphabetical order 
+			ListIterator
+			ListIterator<String> stringListIterator = linkedList.listIterator(); // doesn't point to the first record
+
+
+		Not good idea to write methods that return and use .next
+		
+		LinkedList are implemented as double linked list so we can go back or forward, .previous and .next 
+		
+		When we want to be able to go back and forward then we have to keep track of our way
