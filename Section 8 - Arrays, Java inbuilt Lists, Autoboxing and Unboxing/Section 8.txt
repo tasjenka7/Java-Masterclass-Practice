@@ -172,3 +172,8 @@ ctrl + element in code -> it opens docs (It works with objects)
 		LinkedList are implemented as double linked list so we can go back or forward, .previous and .next 
 		
 		When we want to be able to go back and forward then we have to keep track of our way
+================================
+31.01.2022.
+	119,120 LinkedList challenge
+		Alternative way for for loop for objects:
+			for(Song checkedSong: this.songs){} --> this.songs is ArrayList of songs
