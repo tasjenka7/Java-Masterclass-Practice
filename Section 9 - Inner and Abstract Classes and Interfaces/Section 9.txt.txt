@@ -1,0 +1,32 @@
+01.02.2022.
+	123, 124. Interfaces
+
+		So an interface, in Java terms, specifies methods that a particular class that implements the interface must implement.
+		Interface that we create is abstract, it holds commont behaviour that can be used by several classes by having them implement the same interface
+
+		create new class -> choose interface down and naming convention is ITelephone (I and then name)
+			we define just the methods we want the class that uses the interface to have
+		We don't write code in the interface, we write that in the class
+
+		public or private in interface if actually useless because we don't call it 
+
+		Create a class -> implements I...  it is red and it as to be either abstract class or to implement methods
+		
+		All methods from interface MUST be overriden, if we don't need it in a class just put a simple message
+
+		ITelephone name;
+		name = new DeskPhone()...      But we can't say ITelephone name = new ITelephone -> it automatically gives us a class to create
+
+		If we initialize as I.. then we can use that variable for any class that implements that interface
+--------------
+	LinkedList interfaces
+		if we change LinkedList with List it still works
+
+		Java libraries are created in that way so that we can have maximum usage
+	
+		Vector is one more type of List 
+
+		It's good to use generic list as a type and afterwards to declare an actual type.
+
+		To create a class and inherit it or to create an interface? 	
+			Think of a connection. In telephone example - desk phone is a phone, but mobile phone is more of a computer with phone interface. Class can only inherit from one super class, but can implement from many interfaces
