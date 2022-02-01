@@ -177,3 +177,12 @@ ctrl + element in code -> it opens docs (It works with objects)
 	119,120 LinkedList challenge
 		Alternative way for for loop for objects:
 			for(Song checkedSong: this.songs){} --> this.songs is ArrayList of songs
+================================
+01.02.2022.
+	121. LinkedList challenge
+		When we don't have to go back and forward we don't have to use ListIterator and instead of it we use regular Iterator
+		 System.out.println(iterator.next()); //.toString() is default so can be omitted
+
+	
+		With listIterator.remove() we can do it once and we have to call .next() or .previous() to be able to call it again
+			we get an error every time if we try to call it in a row without next or previous
