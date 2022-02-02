@@ -30,3 +30,17 @@
 
 		To create a class and inherit it or to create an interface? 	
 			Think of a connection. In telephone example - desk phone is a phone, but mobile phone is more of a computer with phone interface. Class can only inherit from one super class, but can implement from many interfaces
+
+================================
+02.02.2022.
+	125, 126. Interface challenge
+		trick-> when adding to an ArrayList<String> something that is an int 
+				myList.add(index, "" + this.intValue)
+
+		When overriding toString method InteliJ gives multiple templates to choose
+
+		ISaveable werewolf = new Monster(...)
+		We can't do: werewolf.getStrength() even though we have a getter, because it's not in an interface so we have to cast
+		We have to do: ((Monster)werewolf).getStrength()  because it's from an actual class. If we declaired it as a Monster then we could use the regular way
+
+		Usually we want it to be an interface that way our code is more generic
